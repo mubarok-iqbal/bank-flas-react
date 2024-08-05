@@ -1,9 +1,2 @@
-from flask import Flask
+from app import app
 
-app = Flask(__name__)
-
-@app.route('/')
-def main():
-  return {
-    'message': 'Well done, your first app is live!'
-  }
